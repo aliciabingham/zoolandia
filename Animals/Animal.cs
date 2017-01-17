@@ -10,20 +10,9 @@ namespace Zoolandia.Animals
 
         public string color { get; set; }
 
-    }
-
-    class EquusZebra : Animal
-    {
-        public string IsStriped { get; set; }
-    }
-
-    class WeinusCaninus: Animal 
-    {
-        public string IsSuperLong { get; set; }
-    }
-
-    class PlatynotaReptilia: Animal
-    {
-        public string IsMammal { get; set; }
+        public virtual void Mammal ()
+        {
+            Console.WriteLine("This animal is a mammal.");
+        }
     }
 }

@@ -32,6 +32,16 @@ namespace Zoolandia
             Lizard.color = "green";
 
             Console.WriteLine($"The zoo also had a {Lizard.color} lizard named {Lizard.name}. Lizards in general are {Lizard.IsMammal}.");
+            
+            PlatynotaReptilia Lizard2 = new PlatynotaReptilia();
+            Console.WriteLine(Lizard2.name);
+
+            WeinusCaninus Doggo2 = new WeinusCaninus();
+            Console.WriteLine(Doggo2.name);
+
+            EquusZebra Zebra2 = new EquusZebra();
+            Console.WriteLine(Zebra2.name);
+
         }
     }
 }
