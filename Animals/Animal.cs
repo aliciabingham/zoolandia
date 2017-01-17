@@ -10,10 +10,9 @@ namespace Zoolandia.Animals
 
         public string color { get; set; }
 
+        public virtual void Mammal ()
+        {
+            Console.WriteLine("This animal is a mammal.");
+        }
     }
-
-
-
-
-
 }
