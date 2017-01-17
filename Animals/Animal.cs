@@ -12,18 +12,8 @@ namespace Zoolandia.Animals
 
     }
 
-    class EquusZebra : Animal
-    {
-        public string IsStriped { get; set; }
-    }
 
-    class WeinusCaninus: Animal 
-    {
-        public string IsSuperLong { get; set; }
-    }
 
-    class PlatynotaReptilia: Animal
-    {
-        public string IsMammal { get; set; }
-    }
+
+
 }
