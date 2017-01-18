@@ -10,6 +10,11 @@ namespace Zoolandia.Animals
             this.name = "Second Lizard";
         }
 
+        public PlatynotaReptilia (string actualName)
+        {
+            this.actualName = actualName;
+        }
+
         public string IsMammal { get; set; }
         public override void Mammal ()
         {

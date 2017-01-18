@@ -8,6 +8,11 @@ namespace Zoolandia.Animals
         {
             this.name = "Second Doggo Name";
         }
+
+        public WeinusCaninus (int actualLength) 
+        {
+            this.actualLength = actualLength;
+        }
         public string IsSuperLong { get; set; }
         public override void Mammal ()
         {
