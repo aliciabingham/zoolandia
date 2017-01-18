@@ -10,6 +10,12 @@ namespace Zoolandia.Animals
         }
         public string IsStriped { get; set; }
 
+        public EquusZebra (int feelings, string feelings2)
+        {
+            this.feelings = feelings;
+            this.feelings2 = feelings2;
+        }
+
         public override void Mammal ()
         {
             base.Mammal();

@@ -42,6 +42,15 @@ namespace Zoolandia
             EquusZebra Zebra2 = new EquusZebra();
             Console.WriteLine(Zebra2.name);
 
+            var Lizard3 = new PlatynotaReptilia("Sammy");
+            Console.WriteLine(Lizard3.actualName);
+
+            var Doggo3 = new WeinusCaninus(200000);
+            Console.WriteLine("This dachsund is " + Doggo3.actualLength + " inches long.");
+
+            var Zebra3 = new EquusZebra(3, "red");
+            Console.WriteLine("My feelings are " + Zebra3.feelings + " " + Zebra3.feelings2);
+
         }
     }
 }
