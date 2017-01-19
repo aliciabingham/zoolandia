@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Zoolandia.Animals
 {
-    public class Animal
+    public class Animal : IMammal
     {
         public string name { get; set; }
 
@@ -14,6 +14,21 @@ namespace Zoolandia.Animals
         public string sleepHabits { get; set; }
 
         public string typeOfFood { get; set; }
+
+        public bool Long()
+        {
+            return true;
+        }
+
+        public void Run()
+        {
+            Console.WriteLine("Waddling, but slowly.");
+        }
+
+        public void Fetch()
+        {
+            Console.WriteLine("Not yet.");
+        }
 
     }
 }
