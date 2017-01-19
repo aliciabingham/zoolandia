@@ -10,9 +10,11 @@ namespace Zoolandia.Animals
 
         public bool IsLoooooooong { get; set; }
 
+
+
         public class Caninus : Weinus
         {
-
+            public string softBelly { get; set; }
         }
 
         public class Feline : Weinus
